@@ -27,5 +27,5 @@ For this task, Python with TensorFlow to train our neural network and conduct tr
 
 ## Data Set Links:
 
-Lunar Orbiter Dataset
-HiRISE Mars Satellite Dataset
+Lunar Orbiter Dataset - https://www.lpi.usra.edu/resources/lunarorbiter/
+HiRISE Mars Satellite Dataset - https://data.nasa.gov/Space-Science/Mars-orbital-image-HiRISE-labeled-data-set-version/egmv-36wq
