@@ -9,12 +9,12 @@ We are aiming to see how well transfer learning will help in classification of i
 
 ## Data Set Description:
 Training dataset: Mars Orbital HiRISE image data set - This data set contains a total of 73,031 landmarks. 10,433 landmarks were detected and extracted from 180 HiRISE browse images, and 62,598 landmarks were augmented from 10,433 original landmarks. For each original landmark, we cropped a square bounding box that includes the full extent of the landmark plus a 30-pixel margin to left, right, top and bottom. Each cropped landmark was resized to 227x227 pixels, and then was augmented to generate 6 additional landmarks using the following methods:
-  A. 90 degrees clockwise rotation
-  B. 180 degrees clockwise rotation
-  C. 70 degrees clockwise rotation
-  D. Horizontal flip
-  E. Vertical flip
-  F. Random brightness adjustment
+- 90 degrees clockwise rotation
+- 180 degrees clockwise rotation
+- 70 degrees clockwise rotation
+- Horizontal flip 
+- Vertical flip 
+- Random brightness adjustment
 
 ## Testing/Implementation dataset: 
 The Lunar Orbiter Photo Gallery is an extensive collection of over 2,600 high- and moderate-resolution photographs produced by all five of the Lunar Orbiter missions. These photographs were taken in 1966 and 1967 to survey possible lunar landing sites and provide baseline imagery for geologic analysis of the lunar surface. The images were used to select the Apollo landing sites and to produce many of our existing lunar geologic maps. This photo gallery is the web’s most comprehensive collection of Lunar Orbiter photography and supporting documents. For our implementation, we plan to label a subset of these images to conduct transfer learning and testing.
